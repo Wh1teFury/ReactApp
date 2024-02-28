@@ -1,0 +1,19 @@
+/* .main-page {} */
+.main-page-wrapper {
+  min-height: 1083px;
+  padding: 20px;
+  background-color: #fffafa;
+  border-radius: 30px
+}
+/* .main-page-block {} */
+.not-found {
+  padding-left: 20px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.error {
+  text-align: center;
+  color: #db0000;
+  font-size: 18px;
+  font-weight: 500;
+}

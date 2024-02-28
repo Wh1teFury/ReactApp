@@ -1,0 +1,19 @@
+.loader-wrapper {
+  min-height: 1043px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loader {
+  height: 120px;
+  width: 120px;
+  border: 6px solid;
+  border-color: #ff7e32 transparent #ff7e32 transparent;
+  border-radius: 50%;
+  animation: spin 1s ease infinite;
+}
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}

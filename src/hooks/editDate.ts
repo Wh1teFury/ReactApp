@@ -1,0 +1,5 @@
+import React from 'react';
+
+export default function editDate(date: string): string {
+  return date.slice(0,10).split('-').reverse().join('.')
+}

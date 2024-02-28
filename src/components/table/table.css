@@ -1,0 +1,43 @@
+.table-users {
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+}
+.table-users th, 
+.table-users td {
+  padding: 7px 0;
+  border: none;
+}
+.table-users th {
+  font-size: 18px;
+  border-bottom: 1px solid #9C9C9C;
+  color: #9C9C9C;
+}
+.table-users th:first-child {
+  visibility: hidden;
+}
+.table-users td {
+  font-size: 16px;
+  font-weight: 500;
+}
+.avatar-thumbnail {
+  border-radius: 50%;
+}
+.avatar-title {
+  width: 73px;
+}
+.name {
+  width: 166px;
+}
+.location {
+  width: 300px;
+}
+.email {
+  width: 300px;
+}
+.phone {
+  width: 159px;
+}
+.registered {
+  width: 162px;
+}
